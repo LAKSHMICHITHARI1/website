@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    *body{
+     padding: 0; margin: 0;
+    }
+      *{
+            text-decoration: none;
+        }
+        .navbar{
+           background: navy; padding-left: 15px; padding-right: 15px; color: white;
+        } 
+        .navdiv{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600; color: white;
+        }
+        li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+        }
+        li:hover{
+          background-color: lightsalmon;
+        }
+     .el2{
+        font-size: x-large;
+        background-color: navy;
+        color: white;
+        padding: 80px;
+        display: flex;
+     }
+     .bt1{
+      background-color: skyblue;
+      color: white;
+      padding: 8px;
+      border: 1px;
+     }
+     .bt1:hover{
+      background-color:red;
+     }
+     .bt2{
+      background-color: skyblue;
+      color: white;
+      padding: 8px;
+      border: 1px;
+     }
+     .bt2:hover{
+      background-color:red;
+     }
+     .img1{
+      float: right;
+      width: 70%;
+     }
+     .el3{
+      text-align: center;
+      font-size: x-large;
+     }
+     .el3>h2{
+      padding: 20px ;
+     }
+     .el3b{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+     }
+     .bt3{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt3:hover{
+      background-color:blue;
+     }
+     .bt4{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt4:hover{
+      background-color:blue;
+     }
+     .bt5{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt5:hover{
+      background-color:blue;
+     }
+     .bt6,.bt7,.bt8{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt6:hover{
+      background-color:blue;
+     }
+     .bt7:hover{
+      background-color:blue;
+     }
+     .bt8:hover{
+      background-color:blue;
+     }
+     .bt9{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt9:hover{
+      background-color:lightsalmon;
+     }
+     .bt10{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt10:hover{
+      background-color:lightsalmon;
+     }
+     .bt11{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+      width: 10%;
+      height: 15%;
+     }
+     .bt11:hover{
+      background-color:lightsalmon;
+     }
+     .bt12{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      border: 1px;
+      font-size:medium;
+     }
+     .bt12:hover{
+      background-color: lightsalmon;
+     }
+     .el3ba,.el3bb,.el3bc{
+      border: 1px solid wheat;
+      padding: 20px 20px;
+     }
+     .el3c{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+     }
+     .el3ca,.el3cb,.el3cc{
+      border: 1px solid wheat;
+      padding: 20px 20px;
+     }
+     .el3b,.el3c{
+      padding: 20px;
+     }
+     .el4{
+      padding: 5%;
+      display: flex;
+      justify-content: space-evenly;
+     }
+     .el4>h2,.el4>p{
+        text-align: center;
+     }
+     .about{
+      width: 100%;
+     }
+     .el5{
+       display: flex;
+       justify-content: space-evenly;
+       background-color: blue;
+       font-size: x-large;
+     }
+     .el5b{
+      padding:3px;
+     }
+     .el6{
+      background-color: linen;
+      text-align: center;
+      justify-content: center;
+     }
+      .el6b{
+        display: flex;
+        padding-left: 350px;
+      }
+      .el6ba{
+        border: 1px solid red;
+        padding-right: 10px;
+        line-height: 2.5;
+        padding: 2%;
+        font-size: larger;
+      }
+      .el6bb{
+        border: 1px solid red;
+        padding-right: 10px;
+        line-height: 2.5;
+        padding: 2%;
+        font-size: larger;
+      }
+      .el6c {
+       width: 350px;    
+      padding: 10px;    
+      margin: 10px;     
+      border: 1px solid red; 
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+      overflow: hidden; 
+     }
+     .el6c {
+    width: 90%;       
+    max-width: 400px;  
+    padding: 10px;
+    margin: 10px auto;
+    line-height: 2.5; 
+    }
+
+     @media (max-width: 600px) {
+    .el6c {
+        max-width: 150px;
+        }
+     }
+      .el6ca:hover{
+        background-color: lightseagreen;
+      }
+      .el6ba:hover{
+        background-color: lightseagreen;
+      }
+      .el6bb:hover{
+        background-color: lightseagreen;
+      }
+
+     .el7{
+      text-align: center;
+      padding-left: 150px;
+      padding-right: 200px;
+     }
+     .el7a>h2{
+      padding: 5%;
+     }
+     .el7c{
+      border: 1px solid wheat;
+      padding: 20px ;
+     }
+     .el7ba{
+      line-height:2;
+     }
+     .el7bb>img {
+      border-radius: 50%;
+      float: left;
+     }
+     .el7ca>h2{
+      float: left;
+     }
+     .el8{
+       text-align: center;
+       padding: 5%;
+       line-height:2.5;
+     }
+     .el8b{
+      padding: 10px;
+     }
+     
+     .el9{
+      display: flex;
+      justify-content: space-between;
+      padding: 12%;
+      background-color: navy;
+      color: white;
+     }
+     .el9ab,.el9ac,.el9ad,.el9ae{
+      line-height: 2.5;
+      font-size: larger;
+     }
+     .el9bb,.el9bc,.el9bd,.el9be{
+      line-height: 2.5;
+      font-size: larger;
+     }
+     .el9db,.el9dc{
+      line-height: 2.5;
+     }
+     .bt5{
+      background-color: blue;
+     }
+     .bt5:hover{
+      background-color: red;
+     }
+     .el10{
+      text-align: center;
+      background-color: navy;
+      color: white;
+      padding-left: 25x;
+     }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"><a href="#">HOSTIT</a> </div>
+        <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./services.html">SERVICES</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./our pricing.html">PRICING</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+            <li><a href="#CALL:+91 123456788">CALL:+91 123456788</a></li>
+        </ul>
+    </div>
+</nav>
+  <div class="el2">
+    <div class="el2a">
+      <h1>Fast & Secure<br>
+        Web Hosting</h1>
+        <p>Anything embarrassing hidden in the middle of text. All the<br>
+          Lorem Ipsuanything embarrassing hidden in the middle of text.<br>
+          All the Lorem Ipsumm<br></p>
+          <button class="bt1">read more</button>
+          <button class="bt2">contact us</button>
+    </div>
+    <div class="el2b">
+      <img  class="img1" src="slider-img (2).png" alt="">
+    </div>
+  </div>
+  <div class="el3">
+    <h2 class="el3a">Our Services</h2>
+    <div class="el3b">
+      <div class="el3ba">
+        <img src="shared img.png" alt="" width="150px" height="150px">
+        <div>Shared Hosting</div>
+        <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+        <button class="bt3">read more</button>
+      </div>
+      <div class="el3bb">
+        <img src="dedicated img.jpg" alt="" width="150px" height="150px">
+        <div>Dedicated Hosting</div>
+        <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+        <button class="bt4">read more</button>
+      </div>
+      <div class="el3bc">
+        <img src="cloud-hosting.png" alt="" width="150px" height="150px">
+        <div>Cloud Hosting</div>
+        <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+        <button class="bt5">read more</button>
+      </div>
+    </div>
+    <div class="el3c">
+      <div class="el3ca">
+        <img src="vps.jpg" alt="" width="150px" height="150px">
+        <div>VPS Hosting</div>
+        <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+        <button class="bt6">read more</button>
+      </div>
+      <div class="el3cb">
+      <img src="wordpress.png" alt="" width="150px" height="150px">
+      <div>Wordpress Hosting</div>
+      <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+      <button class="bt7">read more</button>
+      </div>
+      <div class="el3cc">
+        <img src="domain hosting.png" alt="" width="150px" height="150px">
+        <div>Domain Name</div>
+        <p>Generators on the Internet tend to repeat predefined chunks as necessary</p>
+        <button class="bt8">read more</button>
+      </div>
+    </div>
+  </div>
+  <div class="el4">
+    <div class="el4a">
+      <h1><bold>About Us</bold></h1>
+      <p style="font-size: larger;">Words which don't look even slightly believable. If you are going<br>
+      to use a passage of Lorem Ipsum, you need to be sure there<br>
+      isn't anything embarrassing hidden in the middle of text. All the <br>
+      Lorem Ipsum generators on the Internet tend to repeat<br>
+      predefined chunks</p>
+      <button class="bt9">Read More</button>
+    </div>
+    <div class="el4b" >
+      <img  class="about" src="about-img.png" alt="">
+    </div>
+  </div>
+  <div class="el5">
+    <div class="el5a">
+    <img src="server-img.jpg" width: 700px;>
+    </div>
+    <div class="el5b">
+      <div class="el5ba">
+      <h2>Let us manage your server</h2>
+      </div>
+      <div class="el5bb">
+      <p>Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore</p>
+      <button class="bt10">Read More</button>
+      </div>
+    </div>
+  </div>  
+  <div class="el6">
+    <h2>Our Pricing</h2>
+    <div class="el6b">
+    <div class="el6ba">
+     <pre>            $49
+     <span style="color: aqua;" style="font-size: medium;">START UP</span>
+     2GB RAM
+     20GB SSD Cloud Storage
+     Weekly Backups
+     DDoS Protection
+     Full Root Access
+    24/7/365 Tech Support 
+     </pre>
+    </div>
+    <div class="el6bb">
+      <pre>            $49
+        <span style="color: aqua;" style="font-size: medium;">START UP</span>
+        2GB RAM
+        20GB SSD Cloud Storage
+        Weekly Backups
+        DDoS Protection
+        Full Root Access
+       24/7/365 Tech Support 
+        </pre>
+     </div>
+ </div>  
+ <div class="el6c">
+   <div class="el6ca">
+     <pre>            $49
+         <span style="color: aqua;" style="font-size: medium;">START UP</span>
+         2GB RAM
+         20GB SSD Cloud Storage
+         Weekly Backups
+         DDoS Protection
+         Full Root Access
+        24/7/365 Tech Support 
+       </pre> 
+       </div>
+ </div>
+</div>
+  <div class="el7">
+    <div class="el7a">
+      <h2 style="font-size: x-large;">Testinomail</h2>
+    </div>
+    <div class="el7b">
+      <div class="el7ba">
+        <p style="font-size: x-large;">Even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to</p>
+      </div>
+      <div class="el7bb">
+        <img src="client.jpg" alt="Paris" width="150" height="150">
+      </div>
+    </div>
+    <div class="el7c">
+      <div class="el7ca">
+        <h2><span style="color:aqua;">Morojink</span><span style="color: brown;">CUSTOMERS</span></h2><br> 
+      </div>
+      <div class="el7cb">
+        <p class="p2" style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<br>
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat<br>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia<br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="el8">
+    <div class="el8a">
+    <h2>GET IN TOUCH</h2></div> 
+    <div class="el8b">
+      <form action="">
+        <label for="your Name"></label>
+        <input type="text" name="yname" placeholder="Your Name" style="width: 400px;" height="400px"><br>
+        <label for="your Name"></label>
+        <input type="text" name="yname" placeholder="Your Email" style="width: 400px;" height="400px;"><br>
+        <label for="your Name"></label>
+        <input type="text" name="yname" placeholder="Your Phone" style="width: 400px;" height="400px;"><br>
+        <label for="your Name"></label>
+        <input type="text" name="yname" placeholder="Message" style="width: 400px;" height="600px;"><br>
+      </form>
+    </div>
+    <div class="el8c">
+      <button class="bt11"> Send</button>
+    </div>
+  </div>
+  <div class="el9">
+    <div class="el9a">
+      <div class=".el9aa" style="font-size: x-large;">Address</div>
+      <div class="el9ab"><i class="fa-solid fa-location-dot"></i>
+        Location</div>
+      <div class="el9ac"><i class="fa-solid fa-phone"></i>
+        Call +91 01234567</div>
+      <div class="el9ad"><i class="fa-regular fa-envelope"></i>
+        mail@domain.com<br>
+        <i class="fa-brands fa-facebook"></i>
+           <i class="fa-solid fa-dove"></i>
+           <i class="fa-brands fa-linkedin-in"></i>
+           <i class="fa-brands fa-square-instagram"></i>
+      </div>
+    </div>
+    <div class="el9b">
+      <div class="el9ba" style="font-size: x-large;">Links</div>
+      <div class="el9bb"><i class="fa-solid fa-forward"></i>Home</div>
+      <div class="el9bc"><i class="fa-solid fa-forward"></i>About</div>
+      <div class="el9bd"><i class="fa-solid fa-forward"></i>Services</div>
+      <div class="el9bd"><i class="fa-solid fa-forward"></i>Pricing</div>
+      <div class="el9be"><i class="fa-solid fa-forward"></i>Contact Us</div>
+    </div>
+    <div class="el9c">
+      <div class="el9ca" style="font-size:x-large;">Info</div>
+      <p style="font-size: larger;">necessary, making this the <br>
+        first true generator on the <br>
+        Internet. It uses a dictionary <br>
+        of over 200 Latin words, <br>
+        combined with a handful</p>
+    </div>
+    <div class="el9d">
+      <div class="el9da" style="font-size: x-large;">Subscribe</div>
+      <div class="el9db" style="font-size: larger;">Enter Email<hr></div>
+      <div class="el9dc">
+        <button class="bt12">Subscribe</button>
+      </div>
+    </div>
+  </div>
+  <div class="el10"><hr style="width: 50%;" >
+      © 2024 All Rights Reserved. By HTML Design</div>
+  </div>
+</body>
+</html>
